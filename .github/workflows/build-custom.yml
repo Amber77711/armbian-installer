@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       download_url:
-        description: '请输入下载地址(扩展名 .img.gz/.img.xz/.img.zip)'
+        description: 'https://downloads.immortalwrt.org/releases/24.10.0/targets/x86/64/immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.img.gz'
         required: true
         default: 'https://default.example.com/file.img.gz'
 
