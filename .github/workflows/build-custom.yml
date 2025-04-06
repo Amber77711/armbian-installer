@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       download_url:
-        description: 'https://downloads.immortalwrt.org/releases/24.10.0/targets/x86/64/immortalwrt-24.10.0-x86-64-generic-ext4-combined-efi.img.gz'
+        description: 'https://www.ikuai8.com/download.php?n=/3.x/img/iKuai8_x64_3.7.18_Build202501081617.img.gz'
         required: true
         default: 'https://default.example.com/file.img.gz'
 
